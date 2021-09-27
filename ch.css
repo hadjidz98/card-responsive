@@ -1,2 +1,120 @@
-# card-responsive
-responsive card with flexbox
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Lobster&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Hind', sans-serif;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.card{
+	width: 30%;
+	height: 570px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items:  center;
+	background-color: #fff;
+	box-shadow: 5px 5px 7px #ddd;
+	border-left: 1px solid #ddd;
+	box-sizing: border-box;
+}
+.bg{
+	width: 100%;
+	height: 200px;
+	background-color: #3C99DC;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0px 2px 5px #ddd;
+}
+.bg img{
+	width: 100%;
+	height:100%;
+}
+.content{
+	margin-top: 5%;
+	height: 330px;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:space-around;
+}
+.content h3{
+	font-size: 30px;
+	text-transform: capitalize;
+	font-family: 'Lobster', cursive;
+}
+.content p{
+	text-align: center;
+	padding-left: 10%;
+	padding-right:10%;
+	text-transform: initial;
+}
+.content .sang_py{
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #f7f7f7;
+	border-radius: 10px;
+	padding: 10px;
+}
+.content .sang{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.content .sang_py .payment{
+	display: flex;
+	flex-direction: column;
+	text-transform: capitalize;
+}
+.content .sang_py #change{
+	position: relative;
+	margin-right: 10px;
+	text-decoration: underline;
+	color: #3C99DC;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+.content .sang_py #sang{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	border-radius: 50%;
+	margin-right: 10px;
+	padding: 15px;
+	background-color: #eaf0f1;
+	box-sizing: border-box;
+}
+.content button{
+	outline: none;
+	padding: 12px;
+	width: 100%;
+	text-transform: capitalize;
+	border-radius: 10px;
+	border:none;
+	background-color: #3C99DC;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 600;
+}
+.content button:hover{
+	background-color:#2565AE;
+}
+.content a{
+	text-decoration: none;
+	color: #b7b7b7;
+	font-weight: 700;
+}
+.
